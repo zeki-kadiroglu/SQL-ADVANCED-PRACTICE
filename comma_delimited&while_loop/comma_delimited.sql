@@ -1,6 +1,6 @@
 select * from [dbo].[tblTrainer]
 
-alter function comma_delimited ()
+/*create function comma_delimited ()
 returns  @names table (trainerid int,trainer_names varchar(500))
 as 
 begin
@@ -10,9 +10,9 @@ from [dbo].[tblTrainer] ;
 return;
 end;
 
-select * from [dbo].[comma_delimited]();
+select * from [dbo].[comma_delimited]();*/
 
-alter proc list_output (@list as varchar(max))
+create proc list_output (@list as varchar(max))
 as 
 begin
 declare @count int;
@@ -32,4 +32,4 @@ end;
 go
 exec list_output '21,93,3993,4085'
 
-select * from STRING_SPLIT('21,93,3993,4085',',')
+--select * from STRING_SPLIT('21,93,3993,4085',',')
