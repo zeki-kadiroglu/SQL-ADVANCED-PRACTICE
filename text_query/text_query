@@ -1,0 +1,10 @@
+--https://www.wiseowl.co.uk/sql/exercises/standard/archived/1775/
+Create a query using an inner join between these two tables.  Your query should read the following columns for schedule number 17 (not shown above) into 3 variables:
+
+The course name
+The start date
+The number of days the course lasts
+Extend this query so that it prints out this information, using the 3 variables that you have created and assigned values to:
+
+https://www.wiseowl.co.uk/files/exercise-images/e1775/i3925.gif
+Sample output from your query
