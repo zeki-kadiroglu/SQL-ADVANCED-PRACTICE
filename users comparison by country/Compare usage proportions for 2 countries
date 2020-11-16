@@ -1,0 +1,16 @@
+https://www.wiseowl.co.uk/sql/exercises/standard/archived/1798/
+
+Create a stored procedure which takes in as input the names of 2 countries:
+
+SQL exercise - Derived tables and CTEs (image 2)
+Here's how we might test our stored procedure
+
+Within this stored procedure, create a CTE giving for each website the usage proportion for that website for each of the two countries specified:
+
+SQL exercise - Derived tables and CTEs (image 3)
+For Facebook, for example, 5.1% of users are French, but only 0.9% Greek
+
+Create a SELECT statement based on this CTE to show the results with a total:
+
+SQL exercise - Derived tables and CTEs (image 4)
+We now learn that taken together French and Greek users comprise 6% of Facebook users, for example

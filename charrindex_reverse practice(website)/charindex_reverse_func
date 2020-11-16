@@ -1,0 +1,9 @@
+--https://www.wiseowl.co.uk/sql/exercises/standard/archived/1785/
+Create a function to return the domain suffix from any website URL (eg the Wise Owl website URL would return .uk).
+
+You may find it easier to use the reverse function to reverse the order of the URL, then use the charindex function to find the first full stop.  Don't forget to check for errors - if charindex returns 0, then this isn't a valid URL!
+
+Use your function to show all websites where the domain reported by the DomainId column isn't the same as the actual domain suffix:
+--->>> requested result https://www.wiseowl.co.uk/files/exercise-images/e1785/i3944.gif
+
+Your query should show 7 sanitised adult sites and one Mexican mistake!

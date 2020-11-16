@@ -1,0 +1,18 @@
+--https://www.wiseowl.co.uk/sql/exercises/standard/archived/1782/
+
+The database also contains a list of scheduled courses called tblSchedule, showing for each course which resources it uses:
+
+SQL exercise - Parameters and return values (image 2)
+The first course, for example, uses resources 574 and 595 - ie SPECIAL EQUIPMENT and a FLIP CHART
+
+Write a stored procedure which:
+
+Takes in the name of a resource as a parameter
+Works out the id of this resource (or returns prematurely if the resource name doesn't exist in the tblResource table)
+Works out how many courses use this resource (see hint below), and returns this number
+You can use either an output parameter or a return value to return the number (the example below uses both, which is definitely overkill):
+
+SQL exercise - Parameters and return values (image 3)
+This is what calling your stored procedure could look like
+
+To work out which courses use a resource, add a comma before and after both the ResourceIds column value and the resource id that you're looking for - then it won't matter whether the resource that you're searching for is the first, last or only one in its list.
