@@ -1,0 +1,9 @@
+-- https://www.wiseowl.co.uk/sql/exercises/standard/archived/1797/
+
+Write some sort of query, somehow, which takes in any comma-delimited id string of trainer ids as input:
+
+SQL exercise - Temporary tables and table variables (image 1)
+An example of a typical input '21,93,3993,4085'
+
+Your query should, somehow, turn this into a comma-delimited string of trainer names:
+https://www.wiseowl.co.uk/files/exercise-images/e1797/i4020.gif 
